@@ -1,0 +1,276 @@
+[
+  {
+    "fields": {
+      "name": "Sedan",
+      "differentiating_factor" : "It is primarily defined by the presence of separate compartments for the engine, passengers, and trunk, and ample seating in the rear. Additionally, sedans have permanently enclosed passenger compartments (differentiating them from convertibles) and share a common design pattern that includes A, B and C pillars."
+    },
+    "model": "mycars.build",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Muscle",
+    "differentiating_factor" : "Powerful engine: Muscle cars have engines typically V8 or larger and have more horsepower than most cars. High speed: The powerful engine in a muscle car allows it to reach high speeds. While sports cars can safely speed through tight turns, muscle cars need to slow down while turning."
+    },
+    "model": "mycars.build",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "JDM",
+      "differentiating_factor" : "The term JDM is an acronym for Japanese Domestic Market. It references the fact that these cars are meant for the Japanese public and, thus, have specific features custom-tailored for the population there. But, more often than not, there are some misconceptions. some concepts includes bold looks with high torque mainly used for drifting through tight spaces."
+    },
+    "model": "mycars.build",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "SUV",
+      "differentiating_factor" : "The term ‘SUV’ is car industry jargon that’s an acronym for Sports Utility Vehicle. It refers to a type of car that sits high off the ground and which often has four-wheel drive and rugged styling. Inevitably, though, there’s a bit more to it than that..."
+    },
+    "model": "mycars.build",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "Offroad",
+      "differentiating_factor" : "An off-road vehicle (ORV), sometimes referred to as an overland or adventure vehicle, is considered to be any type of vehicle which is capable of driving off paved or gravel surfaces,[1] such as trails and forest roads that have rough and low traction surfaces."
+    },
+    "model": "mycars.build",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "Sport",
+      "differentiating_factor" : "It is primarily defined by the presence of separate compartments for the engine, passengers, and trunk, and ample seating in the rear. Additionally, sedans have permanently enclosed passenger compartments (differentiating them from convertibles) and share a common design pattern that includes A, B and C pillars."
+    },
+    "model": "mycars.build",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "Hatchback",
+      "differentiating_factor" : "It is primarily defined by the presence of separate compartments for the engine, passengers, and trunk, and ample seating in the rear. Additionally, sedans have permanently enclosed passenger compartments (differentiating them from convertibles) and share a common design pattern that includes A, B and C pillars."
+    },
+    "model": "mycars.build",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "Coupe",
+      "differentiating_factor" : "It is primarily defined by the presence of separate compartments for the engine, passengers, and trunk, and ample seating in the rear. Additionally, sedans have permanently enclosed passenger compartments (differentiating them from convertibles) and share a common design pattern that includes A, B and C pillars."
+    },
+    "model": "mycars.build",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "BMW",
+      "country_name":"German",
+      "speciality":"BMW is known for it's legacy through it's most reliable engines in market, comfort and bold, mighty looks"
+    },
+    "model": "mycars.company",
+    "pk": 1
+  },
+{
+    "fields": {
+      "name": "Mercedes",
+      "country_name":"German",
+      "speciality":"Mercedes"
+    },
+    "model": "mycars.company",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Pagani",
+      "country_name":"France",
+      "speciality":"Pagani"
+    },
+    "model": "mycars.company",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "Lambhorghini",
+      "country_name":"France",
+      "speciality":"Lambhorghini"
+    },
+    "model": "mycars.company",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "Toyota",
+      "country_name":"Japan",
+      "speciality":"Honda"
+    },
+    "model": "mycars.company",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "Nissan",
+      "country_name":"Japan",
+      "speciality":"Nissan"
+    },
+    "model": "mycars.company",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "M3",
+      "colour": "black",
+      "country_of_origin":"Germany",
+      "mileage":"8",
+      "description":"It is most popular car of mercedes and rare",
+      "build":1,
+      "company":1
+    },
+    "model": "mycars.car",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "X7",
+      "colour": "silver grey",
+      "country_of_origin":"Germany",
+      "mileage":"9",
+      "description":"Most confortable SUV of BMW",
+      "build":4,
+      "company":1
+    },
+    "model": "mycars.car",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "s class",
+      "colour": "white",
+      "country_of_origin":"Germany",
+      "mileage":"10",
+      "description":"most recognizable Sedan by the mercedes",
+      "build":1,
+      "company":2
+    },
+    "model": "mycars.car",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "amg gtr",
+      "colour": "green",
+      "country_of_origin":"Germany",
+      "mileage":"6",
+      "description":"exceptional and beast looking coupe/sports car by mercedes",
+      "build":8,
+      "company":2
+    },
+    "model": "mycars.car",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "Zonda R",
+      "colour": "black",
+      "country_of_origin":"France",
+      "mileage":"5",
+      "description":"Beautiful looking full carbon fibre rare car",
+      "build":6,
+      "company":3
+    },
+    "model": "mycars.car",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "Utopia",
+      "colour": "silver",
+      "country_of_origin":"France",
+      "mileage":"4",
+      "description":"Futuristic invention by Pagani",
+      "build":6,
+      "company":3
+    },
+    "model": "mycars.car",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "Urus",
+      "colour": "yellow",
+      "country_of_origin":"France",
+      "mileage":"8",
+      "description":"sporty SUV by lamborghini",
+      "build":8,
+      "company":4
+    },
+    "model": "mycars.car",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "Aventedor",
+      "colour": "red",
+      "country_of_origin":"France",
+      "mileage":"4",
+      "description":"Most recognized Lambhorghini",
+      "build":6,
+      "company":4
+    },
+    "model": "mycars.car",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "GTR",
+      "colour": "white",
+      "country_of_origin":"Japan",
+      "mileage":"10",
+      "description":"Name says it all ya and most fan favourite JDM",
+      "build":3,
+      "company":6
+    },
+    "model": "mycars.car",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "Skyline",
+      "colour": "blue and silver grey",
+      "country_of_origin":"Japan",
+      "mileage":"10",
+      "description":"GTR with one of the most powerful engines on the planet R34",
+      "build":3,
+      "company":6
+    },
+    "model": "mycars.car",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "Supra",
+      "colour": "grey",
+      "country_of_origin":"Japan",
+      "mileage":"10",
+      "description":"Every kid knows about this",
+      "build":3,
+      "company":5
+    },
+    "model": "mycars.car",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "name": "Camry",
+      "colour": "white",
+      "country_of_origin":"Japan",
+      "mileage":"15",
+      "description":"Family friendly coupe",
+      "build":8,
+      "company":5
+    },
+    "model": "mycars.car",
+    "pk": 12
+  }
+]
